@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <!-- Style.css -->
+     <link href="style.css" type="text/css" rel="stylesheet"/>
+     <!-- Boostrap -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+     <title>Mark x</title></head>
+
+</head>
+<body>
+    <center>
+        <h1>Mark x</h1>
+        <p>We Create Job's & provide Job's.</p>
+ <hr/>
+ </center>
+<!-- Nav Bar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <a class="navbar-brand" href="#">Menu</a> -->
+        <h1>Dashboard</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link disabled" href="dashboard.html">Dashboard</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link disabled" href="contact.html">Contact us</a>
+                  </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search"  id="myInput" onkeyup="myFunction()" placeholder="Search" aria-label="Search">
+            <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+          </form>
+          <button type="button" class="btn btn-primary"><a href="index.html">Logout</a></button>
+        </div>
+      </nav>
+      <!-- End of Nav Bar -->
+<center>
+      <table id="myTable" style="overflow-x:auto;" >
+          <tr>  
+              <th>Proffesion</th>      
+            <th>Name</th>
+          
+            <th>Salary</th>
+          
+          </tr>
+          <tr>
+         <td>Driver</td>
+         <td>Waqas </td>
+         <td>16,000</td>
+         
+         <td> <img id="profilepicture" src="driver.jpg"/></td>
+       
+         <td><button class="btn btn-outline-success my-2 my-sm-0" type="submit">More Information</button></td>
+         <td><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Hire</button></td>
+        </tr>
+          <tr>
+              <td>Staff Nurse</td>
+              <td>Adil </td>
+              <td>30,000</td>
+            
+              <td> <img id="profilepicture" src="staffnurse.jpg"/></td>
+              <td><button class="btn btn-outline-success my-2 my-sm-0" type="submit">More Information</button></td>
+              <td><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Hire</button></td>
+                           </tr>
+               <tr>
+                  <td>Painter</td>
+                  <td>Zohaib </td>
+                  <td>1,500</td>
+                  <td> <img id="profilepicture" src="painter.jpg"/></td>
+                  <td><button class="btn btn-outline-success my-2 my-sm-0" type="submit">More Information</button></td>
+                  <td><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Hire</button></td>
+
+                   </tr>
+                   <tr>
+                      <td>Carpainter</td>
+                      <td>Mustafa </td>
+                      <td>1,500</td>
+                      <td> <img id="profilepicture" src="carpainter.jpg"/></td>
+                      <td><button class="btn btn-outline-success my-2 my-sm-0" type="submit">More Information</button></td>
+                      <td><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Hire</button></td>
+                       </tr>
+                       <tr>
+                          <td>Developer</td>
+                          <td>Nikash </td>
+                          <td>45,000</td>
+                          <td> <img id="profilepicture" src="develpor.jpg"/></td>
+                          <td><button class="btn btn-outline-success my-2 my-sm-0" type="submit">More Information</button></td>
+                          <td><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Hire</button></td>
+                           </tr>
+                           <tr>
+                              <td>Mazdor</td>
+                              <td>Sahil </td>
+                              <td>1,200</td>
+                              <td> <img id="profilepicture" src="mazdor.jpg"/></td>
+                              <td><button class="btn btn-outline-success my-2 my-sm-0" type="submit">More Information</button></td>
+                              <td><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Hire</button></td>
+                               </tr>
+    
+        </table>
+      </center>
+<!-- <h1>About us</h1> -->
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Footer links -->
+      <div class="row text-center text-md-left mt-3 pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Mark x</h6>
+          <p>Mark x is a Job Portal. Which will Create Job's & Provide Job's and We also provide Education Launces , Medical Launces , Rent Launces , Bill Launces and other Launces .  </p>
+          <p>
+                <a href="index.html">Home</a>
+                <br/>
+                <a href="#!">Change Language</a>
+              </p>
+              
+        </div>
+
+        
+
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Our Services</h6>
+          <p>
+                <a href="#!">Mark x Job's Planing</a>
+              </p>
+              
+          <p>
+            <a href="school.html">Mark x Education Launces</a>
+          </p>
+          <p>
+            <a href="orphan.html">Mark x Medical Launces </a>
+          </p>
+          <!-- <p>
+            <a href="bloodbank.html">Mark x Blood Bank</a>
+          </p> -->
+          <p>
+                <a href="hospital.html">Mark x Orphan Houses </a>
+              </p>
+          <!-- <p>
+            <a href="#!">More Services</a>
+          </p> -->
+        </div>
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">About us</h6>
+          <p>
+            <a href="ouridea.html">Our idea</a>
+          </p>
+          <p>
+            <a href="futureproduct.html">Future Products</a>
+          </p>
+          <p>
+            <a href="yourproblem.html">Your Problem</a>
+          </p>
+          <p>
+            <a href="needhelp.html">Need Help</a>
+          </p>
+        </div>
+
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <p>
+            <i class="fa fa-home mr-3"></i> Karachi, Pakistan</p>
+          <p>
+            <i class="fa fa-envelope mr-3"></i> markxtony72@gmail.com</p>
+          <p>
+            <i class="fa fa-phone mr-3"></i> 0348-2449798</p>
+          <p>
+            <!-- <i class="fa fa-print mr-3"></i> </p> -->
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Footer links -->
+
+      <hr>
+
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8">
+
+          <!--Copyright-->
+          <p class="text-center text-md-left">© 2018 Copyright:
+            <!-- <a href="https://mdbootstrap.com/education/bootstrap/"> -->
+              <strong> Tony Mark x</strong>
+            </a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
+
+          <!-- Social buttons -->
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fa fa-google-plus"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+  </footer>
+  <!-- Footer -->
+    <script src="app.js"></script>
+</body>
+</html>
